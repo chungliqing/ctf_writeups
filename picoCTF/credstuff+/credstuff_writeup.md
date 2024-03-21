@@ -24,8 +24,8 @@ The leak.tar is downloaded into ~/Downloads.
 ### Step 2: Unzip 'leak'.
 > `tar --help` to learn more about tar file manipulation
 >
-> GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive.
-> `tar -xf archive.tar`          # Extract all files from archive.tar.
+> * GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive.
+> * `tar -xf archive.tar`          # Extract all files from archive.tar.
 
 > `tar -xf leak.tar` to unzip `leak.tar`.
 
