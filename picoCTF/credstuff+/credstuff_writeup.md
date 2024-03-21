@@ -19,7 +19,7 @@ The second user corresponds to the second password, and so on.
 ## Solution
 
 ### Step 1: Download 'leak'.
-The `leak.tar` is downloaded into ~/Downloads.
+The `leak.tar` is downloaded into home/kali/Downloads.
 
 ### Step 2: Unzip 'leak'.
 > `tar --help` to learn more about tar file manipulation
