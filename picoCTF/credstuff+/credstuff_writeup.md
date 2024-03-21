@@ -24,7 +24,7 @@ The `leak.tar` is downloaded into home/kali/Downloads.
 ### Step 2: Unzip 'leak'.
 > `tar --help` to learn more about tar file manipulation
 >
-> * GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive.
+> * "GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive."
 > * `tar -xf archive.tar`          # Extract all files from archive.tar.
 >   
 
