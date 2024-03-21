@@ -26,9 +26,11 @@ The `leak.tar` is downloaded into home/kali/Downloads.
 >
 > * GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive.
 > * `tar -xf archive.tar`          # Extract all files from archive.tar.
+>   
 
 > `tar -xf leak.tar` to unzip `leak.tar`.
+>
+> The file is successfully unzipped and consists of two text files, passwords.txt and usernames.txt
+> 
 
-The file is successfully unzipped and consists of two text files, passwords.txt and usernames.txt
-
-###
+### Step 3: Inspect `usernames.txt`
