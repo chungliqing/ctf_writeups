@@ -54,7 +54,8 @@ The `leak.tar` is downloaded into home/kali/Downloads.
  
 > Result: `cvpbPGS{P7e1S_54I35_71Z3}`
 > AS shown, the result appear to be encrypted with ROT13
+
 ### Step 6: Decrypt
-> Ensure `hxtools` is installed.
+> * Ensure `hxtools` is installed.
 > `sed -n '378p' Downloads/leak/passwords.txt | rot13` 
 > Result: `picoCTF{C7r1F_54V35_71M3}`
