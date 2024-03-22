@@ -49,13 +49,13 @@ The `leak.tar` is downloaded into home/kali/Downloads.
 ### Step 5: Search for the corresponding password of `cultiris` in `passwords.txt`.
 
 > `sed -n '378p' Downloads/leak/paswords.txt`
-> sed is a stream editor for filtering and transforming text
-> `-n '378p` signifies to filter and return line 378 of `passwords.txt`
+> * sed is a stream editor for filtering and transforming text
+> * `-n '378p` signifies to filter and return line 378 of `passwords.txt`
  
 > Result: `cvpbPGS{P7e1S_54I35_71Z3}`
-> AS shown, the result appear to be encrypted with ROT13
+> * As shown, the result appear to be encrypted with ROT13
 
 ### Step 6: Decrypt
 > * Ensure `hxtools` is installed.
 > `sed -n '378p' Downloads/leak/passwords.txt | rot13` 
-> Result: `picoCTF{C7r1F_54V35_71M3}`
+> `Result: `picoCTF{C7r1F_54V35_71M3}`
