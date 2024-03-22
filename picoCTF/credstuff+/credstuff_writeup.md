@@ -58,4 +58,4 @@ The `leak.tar` is downloaded into home/kali/Downloads.
 ### Step 6: Decrypt
 > * Ensure `hxtools` is installed.
 > `sed -n '378p' Downloads/leak/passwords.txt | rot13` 
-> `Result: `picoCTF{C7r1F_54V35_71M3}`
+> Result: `picoCTF{C7r1F_54V35_71M3}`
