@@ -34,29 +34,32 @@ The second user corresponds to the second password, and so on.
    * The file is successfully unzipped and consists of two text files, passwords.txt and usernames.txt
 
 ### Step 3: Inspect `usernames.txt`
-1. `nano usernames.txt` to inspect the file with the nano text editor.
+* `nano usernames.txt` to inspect the file with the nano text editor.
    
    * Upon inspecting `usernames.txt`, a long list of usernames can be seen.
    * So the task here is to find the username called `cultiris`.
 
 ### Step 4: Search for the line `cultiris` in `usernames.txt`
-1. `grep -n "cultiris" leak/usernames.txt` to search for and return `cultiris` together with its line number.
+* `grep -n "cultiris" leak/usernames.txt` to search for and return `cultiris` together with its line number.
    
    * `-n`, "--line-number - Prefix each line of output with the 1-based line number within its input file."
+
 
    * Result: `378:cultiris` 
      * The username is found on line 378.
 
 ### Step 5: Search for the corresponding password of `cultiris` in `passwords.txt`.
-1. `sed -n '378p' Downloads/leak/paswords.txt` to retrieve line 378 from the file `passwords.txt`.
+* `sed -n '378p' Downloads/leak/paswords.txt` to retrieve line 378 from the file `passwords.txt`.
    
    * "sed is a stream editor for filtering and transforming text"
    * `-n '378p` signifies to filter and return line 378 of `passwords.txt`
- 
+
+
    * Result: `cvpbPGS{P7e1S_54I35_71Z3}`
      * As shown, the result appear to be encrypted with ROT13
 
 ### Step 6: Decrypt
 1. Ensure `hxtools` is installed.
 2. `sed -n '378p' Downloads/leak/passwords.txt | rot13` to decrypt the password.
+   
    * Result: `picoCTF{C7r1F_54V35_71M3}`
