@@ -55,7 +55,7 @@ The second user corresponds to the second password, and so on.
    * `-n '378p` signifies to filter and return line 378 of `passwords.txt`
 
 
-   * Result: `cvpbPGS{P7e1S_54I35_71Z3}`
+   * **Result**: `cvpbPGS{P7e1S_54I35_71Z3}`
      * As shown, the result appear to be encrypted with ROT13
 
 ### Step 6: Decrypt
