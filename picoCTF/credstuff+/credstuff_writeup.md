@@ -45,7 +45,7 @@ The second user corresponds to the second password, and so on.
    * `-n`, "--line-number - Prefix each line of output with the 1-based line number within its input file."
 
 
-   * Result: `378:cultiris` 
+   * **Result**: `378:cultiris` 
      * The username is found on line 378.
 
 ### Step 5: Search for the corresponding password of `cultiris` in `passwords.txt`.
@@ -62,4 +62,4 @@ The second user corresponds to the second password, and so on.
 1. Ensure `hxtools` is installed.
 2. `sed -n '378p' Downloads/leak/passwords.txt | rot13` to decrypt the password.
    
-   * Result: `picoCTF{C7r1F_54V35_71M3}`
+   * **Result**: `picoCTF{C7r1F_54V35_71M3}`
