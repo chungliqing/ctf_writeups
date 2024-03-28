@@ -40,3 +40,19 @@ You can download the challenge files here:
               Date:   Tue Mar 12 00:07:22 2024 +0000
       
                 picoCTF{t1m3m@ch1n3_186cd7d7}
+
+3. `git log --grep="picoCTF{" | grep -oP 'picoCTF\{[^}]+}'` to filter the log only for the commit containing the flag and retrieve the flag.
+   
+   * `git log --grep="picoCTF{"` - This command filters the commit log to only show commits that contain the string "picoCTF{" in their messages.
+   * `grep -oP 'picoCTF\{[^}]+}'`: This command further filters the output of the previous command using grep with certain options and a regular expression pattern.
+     * `-o` - This  tells grep to only output the matched parts of the line, rather than the entire line.
+     * `-P`- This option enables Perl-compatible regular expressions in grep for the regular expression to work proplerly
+     * `'picoCTF\{[^}]+}'` - This is the regular expression pattern being used for the flag.
+       * `picoCTF\{` - This part of the pattern matches the literal string "picoCTF{".
+       * `[^}]+}` -
+         * `[^}]` - This part matches any character that is not a closing curly brace '}'.
+         * `+` - This part says that we want to match one or more of the preceding character (anything but '}').
+
+   * So, when `grep` sees `[^}]+}`, it looks for a series of characters that don't include '}' and captures them until it reaches the first '}'.
+     * This ensures it captures the complete flag, including everything between 'picoCTF{' and the first '}' after it.
+      
