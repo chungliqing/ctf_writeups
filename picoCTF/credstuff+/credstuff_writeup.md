@@ -22,6 +22,7 @@ The second user corresponds to the second password, and so on.
 The `leak.tar` is downloaded into home/kali/Downloads.
 
 ### Step 2: Unzip 'leak'.
+> `file leak.tar` to find file type.
 > `tar --help` to learn more about tar file manipulation
 >
 > * "GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive."
