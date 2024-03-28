@@ -28,6 +28,15 @@ The instruction said the text file has to be in the same directory as the Python
 
 The files are already in the same directory, so let's try executing the Python script.
 
-* `python3 code.py` to run the Python script.
-	* **Result**: `picoCTF{c0d3b00k_455157_197a982c}`
+* `python3 code.py | tee >(xsel -b)` to execute the script, displays its output in the terminal and copies that output to clipboard
 
+	* `python3 code.py` - This runs the Python script. The output this script generates will be sent to the next part of the command.
+
+	* `|` - This takes the output of the command on its left and passes it as input to the command on the right.
+
+	* `tee` - This reads from standard input and writes to standard output and files simultaneously. In this case, it receives the output from python3 code.py.
+
+	* `>(xsel -b)` - This part is called a process substitution. It's a way to treat the output of a command as if it were a file. Here, it's taking the output from `tee` and passing it to `xsel -b`
+		* `xsel -b` - is a command used to copy data to the clipboard.
+
+	* **Result**: `picoCTF{c0d3b00k_455157_197a982c}
