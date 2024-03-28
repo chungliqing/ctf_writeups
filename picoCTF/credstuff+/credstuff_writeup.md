@@ -45,7 +45,7 @@ The second user corresponds to the second password, and so on.
    * `-n`, "--line-number - Prefix each line of output with the 1-based line number within its input file."
 
    * Result: `378:cultiris` 
-   * * The username is found on line 378.
+     * The username is found on line 378.
 
 ### Step 5: Search for the corresponding password of `cultiris` in `passwords.txt`.
 
