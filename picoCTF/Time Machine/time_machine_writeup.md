@@ -56,4 +56,6 @@ You can download the challenge files here: [`challenge.zip`](https://artifacts.p
 
    * So, when `grep` sees `[^}]+}`, it looks for a series of characters that don't include `}` and captures them until it reaches the first `}`.
      * This ensures it captures the complete flag, including everything between `picoCTF{` and the first `}` after it.
+  * **Result**:
+    `picoCTF{t1m3m@ch1n3_186cd7d7}`
       
