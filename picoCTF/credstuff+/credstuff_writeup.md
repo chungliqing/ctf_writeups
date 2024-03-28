@@ -30,18 +30,16 @@ The second user corresponds to the second password, and so on.
    * "`tar -xf archive.tar`          # Extract all files from archive.tar."  
 
 3. `tar -xf leak.tar` to unzip `leak.tar`.
-        > The file is successfully unzipped and consists of two text files, passwords.txt and usernames.txt
+   * The file is successfully unzipped and consists of two text files, passwords.txt and usernames.txt
 
 ### Step 3: Inspect `usernames.txt`
-
-> Upon inspecting `usernames.txt`, a long list of usernames can be seen.
-> So the task here is to find the username called `cultiris`.
->
+1. `nano usernames.txt` to inspect the file.
+   * Upon inspecting `usernames.txt`, a long list of usernames can be seen.
+   * So the task here is to find the username called `cultiris`.
 
 ### Step 4: Search for the line `cultiris` in `usernames.txt`
-
-> `grep -n "cultiris" leak/usernames.txt` to search for and return `cultiris`
-> * `-n`, --line-number - Prefix each line of output with the 1-based line number within its input file.
+1. `grep -n "cultiris" leak/usernames.txt` to search for and return `cultiris` together with its line number
+   * `-n`, "--line-number - Prefix each line of output with the 1-based line number within its input file."
 > Result: `378:cultiris` 
 > * The line containing the username is found.
 
