@@ -19,7 +19,7 @@ The second user corresponds to the second password, and so on.
 ## Solution
 
 ### Step 1: Download 'leak'.
-The `leak.tar` is downloaded into home/kali/Downloads.
+1. `wget https://artifacts.picoctf.net/c/151/leak.tar` is used to download [`leak`](https://artifacts.picoctf.net/c/151/leak.tar) into the home/kali/Downloads directory of a Kali virtual machine.
 
 ### Step 2: Unzip 'leak'.
 1. `file leak.tar` to find file type.
