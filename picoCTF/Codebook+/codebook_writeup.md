@@ -28,6 +28,6 @@ The instruction said the text file has to be in the same directory as the Python
 
 The files are already in the same directory, so let's try executing the Python script.
 
-* `Python code.py` to run the Python script.
+* `python3 code.py` to run the Python script.
 	* **Result**: `picoCTF{c0d3b00k_455157_197a982c}`
 
