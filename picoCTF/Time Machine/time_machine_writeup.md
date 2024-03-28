@@ -1,4 +1,4 @@
-# [Time Machine [CategoryName] [Points]](https://play.picoctf.org/practice/challenge/425?category=5&originalEvent=73&page=1) #
+# [Time Machine [General Skills] [50 Points]](https://play.picoctf.org/practice/challenge/425?category=5&originalEvent=73&page=1) #
 
 
 ## Description ##
