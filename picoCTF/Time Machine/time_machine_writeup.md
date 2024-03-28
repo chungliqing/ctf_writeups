@@ -20,8 +20,8 @@ You can download the challenge files here:
 ### Step 2: Unzip `challenge.zip` ###
 1. `unzip challenge.zip` to unzip `challenge.zip`
 2. `tree` to inspect the unzipped directory. It consists of one directory and one text file.
-  * drop-in
-    * message.txt
+   * drop-in
+     * message.txt
    
 ### Step 3: Inspect `message.txt` ###
 * `cat drop-in/message.txt` to output the text file.
