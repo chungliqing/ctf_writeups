@@ -40,9 +40,7 @@ The second user corresponds to the second password, and so on.
 ### Step 4: Search for the line `cultiris` in `usernames.txt`
 1. `grep -n "cultiris" leak/usernames.txt` to search for and return `cultiris` together with its line number.
    * `-n`, "--line-number - Prefix each line of output with the 1-based line number within its input file."
-
-
-
+    >
     > Result: `378:cultiris` 
     >   * The username is found on line 378.
 
