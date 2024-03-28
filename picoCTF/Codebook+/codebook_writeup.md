@@ -39,4 +39,4 @@ The files are already in the same directory, so let's try executing the Python s
 	* `>(xsel -b)` - This part is called a process substitution. It's a way to treat the output of a command as if it were a file. Here, it's taking the output from `tee` and passing it to `xsel -b`
 		* `xsel -b` - is a command used to copy data to the clipboard.
 
-	* **Result**: `picoCTF{c0d3b00k_455157_197a982c}
+	* **Result**: picoCTF{c0d3b00k_455157_197a982c}
