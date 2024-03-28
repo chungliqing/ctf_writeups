@@ -38,9 +38,10 @@ You can download the challenge files here: [`challenge.zip`](https://artifacts.p
               Author: picoCTF <ops@picoctf.com>
               Date:   Tue Mar 12 00:07:22 2024 +0000
       
-                picoCTF{t1m3m@ch1n3_186cd7d7}
+                *picoCTF{t1m3m@ch1n3_186cd7d7}*
 
-3. `git log --grep="picoCTF{" | grep -oP 'picoCTF\{[^}]+}'` to filter the log only for the commit containing the flag and retrieve the flag.
+### Step 5: Retrieve the flag. ### 
+* `git log --grep="picoCTF{" | grep -oP 'picoCTF\{[^}]+}'` to filter the log only for the commit containing the flag and retrieve the flag.
    
    * `git log --grep="picoCTF{"` - This command filters the commit log to only show commits that contain the string "picoCTF{" in their messages.
    * `grep -oP 'picoCTF\{[^}]+}'`: This command further filters the output of the previous command using grep with certain options and a regular expression pattern.
