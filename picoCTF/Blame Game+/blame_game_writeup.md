@@ -26,11 +26,19 @@ You can download the challenge files here:
 ### Step 3: Inspect git log for changes made. ###
 `git log` to view the commits made.
 * Upon scrolling to the very bottom to the second last commit:
-		commit 0351e0474493168ca76441c24630c17554fd09ca
+
+  		commit 0351e0474493168ca76441c24630c17554fd09ca
 		Author: picoCTF{@sk_th3_1nt3rn_d2d29f22} <ops@picoctf.com>
 		Date:   Tue Mar 12 00:07:01 2024 +0000
 
     			optimize file size of prod code
+  
+### Step 4: Retrieve flag. ###
+`git log --author="picoCTF{" | grep -o 'picoCTF{[^}]*}' | tee >(xsel -b)`
+* `git log --author="picoCTF{"` - retrieves commits made by the author "picoCTF{"
+* `grep -o 'picoCTF{[^}]*}'` - output only the matching flag
+* `tee >(xsel -b)` - copies the flag to clipboard
 
+* **Result**: `picoCTF{@sk_th3_1nt3rn_d2d29f22}`
 
 
