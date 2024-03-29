@@ -39,4 +39,6 @@ You can download the challenge files here:
 * `grep -o 'picoCTF{[^}]*}'` - output only the matching flag
 * `tee >(xsel -b)` - copies the flag to clipboard
 
+* **Result**: `picoCTF{@sk_th3_1nt3rn_d2d29f22}`
+
 
