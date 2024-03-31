@@ -1,4 +1,4 @@
-# Scan Surprise [Forensics] [50 Points] #
+# [Scan Surprise [Forensics] [50 Points]](https://play.picoctf.org/practice/challenge/444?category=4&originalEvent=73&page=1) #
 
 ## Description ##
 I've gotten bored of handing out flags as text. Wouldn't it be cool if they were an image instead?
