@@ -14,4 +14,8 @@ You can download the challenge files here:
 	 Try practicing with the 'First Grep' challenge if you're stuck!
 ## Solution ##
 
-### Step 1: Description ###
+### Step 1: Download and unzip file. ###
+* `wget https://artifacts.picoctf.net/c_rhea/20/challenge.zip` to download the challenge.
+* `unzip challenge.zip` tp unzip the file.
+	* ** Result**:
+ 		* 	   
