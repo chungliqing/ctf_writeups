@@ -22,6 +22,6 @@ You can download the challenge files here:
 	* `sha256sum files/*` - create checksum of all files in the files directory
  	* `grep "fba9f49bf22aa7188a155768ab0dfdc1f9b86c47976cd0f7c9003af2e20598f7"` - retrieve only the entry matching the flag's checksum
   	* `awk '{print $2}'` - to retrieve only the file path
-   	* This command execute `decrypt.sh` while passing in the filepath retrieved.
+   	* This command executes `decrypt.sh` while passing in the filepath retrieved.
 
  * **Result**: `picoCTF{trust_but_verify_87590c24}`   
