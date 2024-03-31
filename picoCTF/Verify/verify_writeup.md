@@ -14,8 +14,14 @@ You can download the challenge files here:
 	 Try practicing with the 'First Grep' challenge if you're stuck!
 ## Solution ##
 
-### Step 1: Download and unzip file. ###
-* `wget https://artifacts.picoctf.net/c_rhea/20/challenge.zip` to download the challenge.
-* `unzip challenge.zip` tp unzip the file.
-	* ** Result**:
- 		* 	   
+### Step 1: Get `checksum.txt` ###
+`cat checksum.txt` to get the contents of the file.
+
+### Step 2: Crosscheck checksum with all files in the files directory. ###
+`./decrypt.sh "$(sha256sum files/* | grep "fba9f49bf22aa7188a155768ab0dfdc1f9b86c47976cd0f7c9003af2e20598f7"  | awk '{print $2}')"`
+	* `sha256sum files/*` - create checksum of all files in the files directory
+ 	* `grep "fba9f49bf22aa7188a155768ab0dfdc1f9b86c47976cd0f7c9003af2e20598f7"` - retrieve only the entry matching the flag's checksum
+  	* `awk '{print $2}'` - to retrieve only the file path
+   	* This command execute `decrypt.sh` while passing in the filepath retrieved.
+
+ * **Result**: `picoCTF{trust_but_verify_87590c24}`   
