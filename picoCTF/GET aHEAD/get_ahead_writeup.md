@@ -11,6 +11,9 @@ Find the flag being held on this server to get ahead of the competition http://m
 
 ### Step 1: Description ###
 * Option 1: `curl --head http://mercury.picoctf.net:28916/ | grep -oP 'picoCTF\{.*?\}' | tee >(xsel -b)`
+ * `curl` - a command-line tool used to transfer data from or to a server, using one of the supported protocols (HTTP, HTTPS, FTP, etc.).
+ * `--head`- to tell curl to fetch the HTTP headers only, without downloading the body of the response. It's commonly used to quickly check the headers of a URL without downloading the entire content.
+  
 * Option 2: `wget --server-response --spider http://mercury.picoctf.net:28916/ | grep -oP 'picoCTF\{.*?\}' | tee >(xsel -b)`
   * `--server-response` to get wget to print the headers sent by HTTP servers.
   * `--spider` to get wget to behave as a Web spider, which means it won't download the pages, but only check their existence and get the headers.
