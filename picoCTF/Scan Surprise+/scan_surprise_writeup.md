@@ -11,7 +11,9 @@ Download this file [here](https://artifacts.picoctf.net/c_titan/130/unknown.zip)
 ## Solution ##
 ### Step 1: Description ###
 * `exiftool ukn_reality.jpg` to view image metadata.
+  
 **Result**:
+
     ExifTool Version Number         : 12.76
     File Name                       : ukn_reality.jpg
     Directory                       : .
