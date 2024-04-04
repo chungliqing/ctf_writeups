@@ -16,15 +16,19 @@ Download the suspicious file [here](https://artifacts.picoctf.net/c_titan/8/flag
 * **Result**:
   `flag2of2-final.pdf: PNG image data, 50 x 50, 8-bit/color RGBA, non-interlaced`
 
-### Step 1: Open file as image with kitty. ###
-`kitty +kitten icat flag2of2-final.pdf`
+### Step 2: Open file as image with kitty. ###
+* `sudo apt install kitty` to download image terminal.
+* `kitty +kitten icat flag2of2-final.pdf` to open the file as image.
 * **Result**: `picoCTF{f1u3n7_`
 
-### Step 2: Open file as image with kitt. ###
-`sudo apt install zathura -y`
-`zathura flag2of2-
+### Step 3: Open file as pdf with a PDF Viewer. ###
+* `sudo apt install zathura -y` to download the PDF Viewer.
+* `zathura flag2of2-final.pdf` to open the PDF file.
+* **Result**: 
 
-
-`sudo apt intstall poppler-utils -y`
-`pdftotext flag2of2-final.pdf - | tee >(xsel -b)`
+### Step 4: Retrieve text from pdf file. ###
+* `sudo apt intstall poppler-utils -y` to download a PDF to Text tool.
+* `pdftotext flag2of2-final.pdf - | tee >(xsel -b)` to retrieve the text from the pdf and copy to clipboard.
 * **Result**: `1n_pn9_&_pdf_249d05c0}`
+
+**Final Result**: `picoCTF{f1u3n7_1n_pn9_&_pdf_249d05c0}`
