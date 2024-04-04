@@ -9,8 +9,8 @@ Download this file [here](https://artifacts.picoctf.net/c_titan/130/unknown.zip)
 2. If something isn't in the expected form, maybe it deserves attention?
    
 ## Solution ##
-### Step 1: Description ###
-* `exiftool ukn_reality.jpg` to view image metadata.
+### Step 1: Use exitftool to view information about the picture. ###
+`exiftool ukn_reality.jpg` to view image metadata.
   
 **Result**:
 
@@ -39,3 +39,6 @@ Download this file [here](https://artifacts.picoctf.net/c_titan/130/unknown.zip)
     Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
     Image Size                      : 4308x2875
     Megapixels                      : 12.4
+### Step 2: Decrypt with base64. ###
+`echo "cGljb0NURntNRTc0RDQ3QV9ISUREM05fM2I5MjA5YTJ9Cg==" | base64 -d | tee >(xsel -b)` to decrypt and copy the flag to clipboard.
+* **Result**: `picoCTF{ME74D47A_HIDD3N_3b9209a2}`
