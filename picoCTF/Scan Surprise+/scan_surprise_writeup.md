@@ -30,7 +30,7 @@ Download this file [here](https://artifacts.picoctf.net/c_titan/130/unknown.zip)
     X Resolution                    : 72
     Y Resolution                    : 72
     XMP Toolkit                     : Image::ExifTool 11.88
-    Attribution URL                 : **cGljb0NURntNRTc0RDQ3QV9ISUREM05fM2I5MjA5YTJ9Cg==**
+    Attribution URL                 : cGljb0NURntNRTc0RDQ3QV9ISUREM05fM2I5MjA5YTJ9Cg==
     Image Width                     : 4308
     Image Height                    : 2875
     Encoding Process                : Baseline DCT, Huffman coding
