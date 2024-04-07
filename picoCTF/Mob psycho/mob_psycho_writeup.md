@@ -29,8 +29,9 @@ Download the android apk [here](https://artifacts.picoctf.net/c_titan/141/mobpsy
   * Due to the presences of numbers and letters up to 'f', the string might be hexadecimal encoded.
 
 ### Step 5: Hexadecimal decode the string. ###
-`cat ./res/color/flag.txt | xxd -r -p | tee >(xsel -b)` to decode and copy the result to the clipboard.
+`cat ./res/color/flag.txt | xxd -r -p | tee >(xsel -b)` to decode and copy the result to the clipboard.\
 * `xxd -r -p` to decodes hexadecimal data to binary.
+   * `xxd` is a command-line utility used to create a hexdump of a given file or standard input, or to convert a hexdump back into its binary form 
   * `-r` to tell xxd to reverse the operation from hexdump to binary
   * `-p` to specify plain hexdump without line number/ASCII.
  
