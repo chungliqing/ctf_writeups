@@ -30,6 +30,6 @@ Go to this [website](http://saturn.picoctf.net:64293/) and see what you can disc
 
 ![](images/webpage_retrieveFlag.png)
 
-* **Result**:
+**Result**:
 
         picoCTF{j5_15_7r4n5p4r3n7_a8788e61}
