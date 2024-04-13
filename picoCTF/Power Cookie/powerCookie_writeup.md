@@ -1,4 +1,4 @@
-# [Power Cookie [Web Exploitation] [200 Points](Power Cookie)](https://play.picoctf.org/practice/challenge/288?category=1&originalEvent=70&page=1) #
+# [Power Cookie [Web Exploitation] [200 Points]](https://play.picoctf.org/practice/challenge/288?category=1&originalEvent=70&page=1) #
 
 ## Description ##
 Can you get the flag?
