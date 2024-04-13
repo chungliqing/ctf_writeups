@@ -1,4 +1,4 @@
-# [Forbidden Paths [Web Exploitation] [200 Points] #
+# [Forbidden Paths [Web Exploitation] [200 Points]](https://play.picoctf.org/practice/challenge/270?category=1&originalEvent=70&page=1) #
 
 ## Description ##
 Can you get the flag?
