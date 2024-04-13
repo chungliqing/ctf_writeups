@@ -14,6 +14,7 @@ Go to this [website](https://play.picoctf.org/practice/challenge/275?category=1&
 
 ### Step 2: Inpect page. ###
 `Ctrl+shift+C` to inspect web page elements.
+
 ![](images/webpage_inspect.png)
 
 * **Result**: `picoCTF{1n5p3t0r_0f_h7ml_8113f7e2}`
