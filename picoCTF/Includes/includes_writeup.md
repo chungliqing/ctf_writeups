@@ -10,4 +10,4 @@ Go to this [website](http://saturn.picoctf.net:50310/) and see what you can disc
 ## Solution ##
 
 ### Step 1: Description ###
-![Alt text](~/home/repos/ctf_writeups/picoCTF/Includes/images/webpage.png)
+![Alt text](images/webpage.png)
