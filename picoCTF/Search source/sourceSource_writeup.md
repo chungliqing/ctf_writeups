@@ -17,9 +17,9 @@ The website is [here](http://saturn.picoctf.net:54888/)
 
 ![](images/webpage_inspectSources.png)
 
-![](images/webpage_retrieveFlag.png)
-
     curl http://saturn.picoctf.net:56234/css/style.css | grep -oE "picoCTF{.*}" | tee >(xsel -b)
+    
+![](images/webpage_retrieveFlag.png)
 
 * **Result**:
 
