@@ -9,8 +9,9 @@ Go to this [website](http://saturn.picoctf.net:64293/) and see what you can disc
 
 ## Solution ##
 
-OPTION 1
-### Step 1: Description ###
+### OPTION 1: Via Web Browser ###
+
+#### Step 1: Description ####
 ![](images/webpage.png)
 
 ![](images/webpage_failed.png)
@@ -23,16 +24,18 @@ OPTION 1
 
 ![](images/webpage_loggedIn.png)
 
-OPTION 2
-`curl -d 'username=admin&password=strongPassword098765' http://saturn.picoctf.net:62954/login.php`
+### OPTION 2: Via Kali Linux Terminal ###
+
+       curl -d 'username=admin&password=strongPassword098765' http://saturn.picoctf.net:62954/login.php
+* https://everything.curl.dev/http/post/simple.html
 
 ![](images/webpage_login.php.png)
 
-`curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php`
+       curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php
 
 ![](images/webpage_admin.php.png)
 
-`curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php | grep -oE "picoCTF{.*}" | tee >(xsel -b)`
+       curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php | grep -oE "picoCTF{.*}" | tee >(xsel -b)
 
 ![](images/webpage_retrieveFlag.png)
 
