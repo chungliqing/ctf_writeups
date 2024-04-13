@@ -10,3 +10,17 @@ The website is [here](http://saturn.picoctf.net:54888/)
 ## Solution ##
 
 ### Step 1: Description ###
+
+![](images/webpage.png)
+
+![](images/webpage_inspectPage.png)
+
+![](images/webpage_inspectSources.png)
+
+![](images/webpage_retrieveFlag.png)
+
+    curl http://saturn.picoctf.net:56234/css/style.css | grep -oE "picoCTF{.*}" | tee >(xsel -b)
+
+* **Result**:
+
+      picoCTF{1nsp3ti0n_0f_w3bpag3s_ec95fa49}
