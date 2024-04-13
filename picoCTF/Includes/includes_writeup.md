@@ -10,4 +10,8 @@ Go to this [website](http://saturn.picoctf.net:50310/) and see what you can disc
 ## Solution ##
 
 ### Step 1: Description ###
-![Alt text](images/webpage.png)
+!(images/webpage.png)
+!(images/webpage_sayHello.png)
+!(images/webpage_inspect.png)
+!(images/webpage_reveal.png)
+!(images/webpage_includes.png)
