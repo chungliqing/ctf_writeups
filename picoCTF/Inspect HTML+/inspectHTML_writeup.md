@@ -21,7 +21,7 @@ Go to this [website](https://play.picoctf.org/practice/challenge/275?category=1&
 * `curl "http://saturn.picoctf.net:55153/" | grep -oE "picoCTF{.*}" | tee >(xsel -b)` to retrieve and copy flag to clipboard
   * `curl` retrieves the contents of the url
   * `-o` flag tells grep to only print the matching part of the line and not the entire line.
-  * `-`E flag enables extended regular expressions, allowing the use of the {.*} syntax.
+  * `-E` flag enables extended regular expressions, allowing the use of the {.*} syntax.
   * `"picoCTF{.*}"` is the regular expression pattern being searched for. It matches strings that start with "picoCTF{" and end with "}". The .* part matches any characters in between.
 
 * **Result**: `picoCTF{1n5p3t0r_0f_h7ml_8113f7e2}`
