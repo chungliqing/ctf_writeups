@@ -1,4 +1,4 @@
-# Search source [Web Exploitation] [100 Points] #
+# [Search source [Web Exploitation] [100 Points]](https://play.picoctf.org/practice/challenge/295?category=1&originalEvent=70&page=1) #
 
 ## Description ##
 The developer of this website mistakenly left an important artifact in the website source, can you find it?
