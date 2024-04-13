@@ -11,7 +11,11 @@ Go to this [website](http://saturn.picoctf.net:50310/) and see what you can disc
 
 ### Step 1: Description ###
 ![](images/webpage.png)
+
 ![](images/webpage_sayHello.png)
+
 ![](images/webpage_inspect.png)
+
 ![](images/webpage_reveal.png)
+
 ![](images/webpage_includes.png)
