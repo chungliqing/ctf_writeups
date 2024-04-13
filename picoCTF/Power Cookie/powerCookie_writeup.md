@@ -19,7 +19,7 @@ Go to this [website](http://saturn.picoctf.net:49668/) and see what you can disc
 
 ![](images/webpage_inspectCookies.png)
 
-![](images/webpage_modifyCookies.png)
+![](images/webpage_modifyCookie.png)
 
 ![](images/webpage_flag.png)
 
