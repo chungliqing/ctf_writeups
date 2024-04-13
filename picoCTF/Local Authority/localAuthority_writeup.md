@@ -9,8 +9,8 @@ Go to this [website](http://saturn.picoctf.net:64293/) and see what you can disc
 
 ## Solution ##
 
-OPTION 1
-### Step 1: Description ###
+### OPTION 1: Via Web Browser ###
+#### Step 1: Description ####
 ![](images/webpage.png)
 
 ![](images/webpage_failed.png)
@@ -23,7 +23,8 @@ OPTION 1
 
 ![](images/webpage_loggedIn.png)
 
-OPTION 2
+### OPTION 2: Via Kali Linux Terminal ###
+
 `curl -d 'username=admin&password=strongPassword098765' http://saturn.picoctf.net:62954/login.php`
 
 ![](images/webpage_login.php.png)
