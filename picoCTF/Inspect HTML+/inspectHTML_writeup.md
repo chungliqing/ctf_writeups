@@ -17,6 +17,7 @@ Go to this [website](https://play.picoctf.org/practice/challenge/275?category=1&
 
 ![](images/webpage_inspect.png)
 
+### Step 3: Retrieve flag using Kali Linux terminal. ###
 * `curl "http://saturn.picoctf.net:55153/" | grep -oE "picoCTF{.*}" | tee >(xsel -b)` to retrieve and copy flag to clipboard
   * `curl` retrieves the contents of the url
   * `-o` flag tells grep to only print the matching part of the line and not the entire line.
