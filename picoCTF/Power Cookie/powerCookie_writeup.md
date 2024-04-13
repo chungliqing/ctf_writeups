@@ -17,13 +17,13 @@ Go to this [website](http://saturn.picoctf.net:49668/) and see what you can disc
 
 ![](images/webpage_inspectGuest.js.png)
 
+![](images/webpage_response.png)
+
 ![](images/webpage_inspectCookies.png)
 
 ![](images/webpage_modifyCookie.png)
 
 ![](images/webpage_flag.png)
-
-![](images/webpage_response.png)
 
 OPTION 2: Via Kali Linux Terminal
 
