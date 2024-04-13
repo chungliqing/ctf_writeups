@@ -1,10 +1,37 @@
-# ChallengeName [CategoryName] [Points] #
+![image](https://github.com/chungliqing/ctf_writeups/assets/118187407/c6ab4e9a-14a3-443c-af2a-15f187ad8e9a)# [Power Cookie [Web Exploitation] [200 Points](Power Cookie) #
 
 ## Description ##
+Can you get the flag?
 
+Go to this [website](http://saturn.picoctf.net:49668/) and see what you can discover.
 
 ## Hints ##
+1. Do you know how to modify cookies?
 
 ## Solution ##
 
 ### Step 1: Description ###
+![](images/webpage.png)
+
+![](images/webpage_inspectPage.png)
+
+![](images/webpage_inspectGuest.js.png)
+
+![](images/webpage_inspectCookies.png)
+
+![](images/webpage_modifyCookies.png)
+
+![](images/webpage_flag.png)
+
+![](images/webpage_response.png)
+
+OPTION 2: Via Kali Linux Terminal
+
+    curl -b "isAdmin=1" http://saturn.picoctf.net:63446/check.php | grep -oE 'picoCTF{.*}' | tee >(xsel -b)
+
+![](images/webpage_retrieveFlag.png)
+
+
+* **Result**:
+
+      picoCTF{gr4d3_A_c00k13_65fd1e1a}
