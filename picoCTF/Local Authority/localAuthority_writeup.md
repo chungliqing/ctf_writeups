@@ -26,15 +26,16 @@ Go to this [website](http://saturn.picoctf.net:64293/) and see what you can disc
 
 ### OPTION 2: Via Kali Linux Terminal ###
 
-`curl -d 'username=admin&password=strongPassword098765' http://saturn.picoctf.net:62954/login.php`
+        curl -d 'username=admin&password=strongPassword098765' http://saturn.picoctf.net:62954/login.php
+* https://everything.curl.dev/http/post/simple.html
 
 ![](images/webpage_login.php.png)
 
-`curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php`
+        curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php
 
 ![](images/webpage_admin.php.png)
 
-`curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php | grep -oE "picoCTF{.*}" | tee >(xsel -b)`
+        curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php | grep -oE "picoCTF{.*}" | tee >(xsel -b)
 
 ![](images/webpage_retrieveFlag.png)
 
