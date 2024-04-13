@@ -23,12 +23,12 @@ OPTION 1
 
 ![](images/webpage_loggedIn.png)
 
-    curl -X POST \
-      -d 'username=admin' \
-      -d 'password=strongPassword098765' \
-      -d 'hash=2196812e91c29df34f5e217cfd639881' \
-      "http://saturn.picoctf.net:64293/admin.php" | grep -oE "picoCTF{.*}" | tee >(xsel -b)
-
+OPTION 2
+`curl -d 'username=admin&password=strongPassword098765' http://saturn.picoctf.net:62954/login.php`
+![](images/webpage_login.php.png)
+`curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php`
+![](images/webpage_admin.php.png)
+`curl -d 'hash=2196812e91c29df34f5e217cfd639881' http://saturn.picoctf.net:62954/admin.php | grep -oE "picoCTF{.*}" | tee >(xsel -b)`
 ![](images/webpage_retrieveFlag.png)
 
 **Result**:
