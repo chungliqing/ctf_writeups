@@ -1,4 +1,4 @@
-![image](https://github.com/chungliqing/ctf_writeups/assets/118187407/c6ab4e9a-14a3-443c-af2a-15f187ad8e9a)# [Power Cookie [Web Exploitation] [200 Points](Power Cookie) #
+# [Power Cookie [Web Exploitation] [200 Points](Power Cookie)](https://play.picoctf.org/practice/challenge/288?category=1&originalEvent=70&page=1) #
 
 ## Description ##
 Can you get the flag?
