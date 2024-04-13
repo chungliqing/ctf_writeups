@@ -22,11 +22,11 @@ Go to this [website](http://saturn.picoctf.net:64293/) and see what you can disc
 
 ![](images/webpage_loggedIn.png)
 
-`curl -X POST \
-  -d 'username=admin' \
-  -d 'password=strongPassword098765' \
-  -d 'hash=2196812e91c29df34f5e217cfd639881' \
-  "http://saturn.picoctf.net:64293/admin.php" | grep -oE "picoCTF{.*}" | tee >(xsel -b)`
+    curl -X POST \
+      -d 'username=admin' \
+      -d 'password=strongPassword098765' \
+      -d 'hash=2196812e91c29df34f5e217cfd639881' \
+      "http://saturn.picoctf.net:64293/admin.php" | grep -oE "picoCTF{.*}" | tee >(xsel -b)
 
 ![](images/webpage_retrieveFlag.png)
 
