@@ -10,7 +10,6 @@ Go to this [website](http://saturn.picoctf.net:64293/) and see what you can disc
 ## Solution ##
 
 ### OPTION 1: Via Web Browser ###
----
 
 #### Step 1: Description ####
 ![](images/webpage.png)
