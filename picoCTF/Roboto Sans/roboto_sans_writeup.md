@@ -21,15 +21,15 @@ Check [this](http://saturn.picoctf.net:56615/) out.
 
     curl http://saturn.picoctf.net:55151/robots.txt
 
-![](webpage_inspectRobots.txt.png)
+![](images/webpage_inspectRobots.txt.png)
 
     curl http://saturn.picoctf.net:55151/robots.txt | grep -oE "a.*==" | base64 -d | tee >(xsel -b)
 
-![](webpage_decrypt.png)
+![](images/webpage_decrypt.png)
 
     curl http://saturn.picoctf.net:55151/js/myfile.txt
 
-![](webpage_flag.png)
+![](images/webpage_flag.png)
 
 * **Result**:
 
