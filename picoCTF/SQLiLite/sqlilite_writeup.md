@@ -1,4 +1,4 @@
-# SQLiLite [Web Exploitation] [300 Points] #
+# [SQLiLite [Web Exploitation] [300 Points]](https://play.picoctf.org/practice/challenge/304?category=1&originalEvent=70&page=1) #
 
 ## Description ##
 Can you login to this website?
