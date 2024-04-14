@@ -29,7 +29,7 @@ OPTION 2: Via Kali Linux Terminal
 
     curl -b "isAdmin=1" http://saturn.picoctf.net:63446/check.php | grep -oE 'picoCTF{.*}' | tee >(xsel -b)
 * https://www.warp.dev/terminus/curl-with-cookies
-* 
+  
 ![](images/webpage_retrieveFlag.png)
 
 
