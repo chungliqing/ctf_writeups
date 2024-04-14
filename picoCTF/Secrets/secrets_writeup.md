@@ -1,4 +1,4 @@
-# Secrets [Web Exploitation] [200 Points]](https://play.picoctf.org/practice/challenge/296?category=1&originalEvent=70&page=1) #
+# [Secrets [Web Exploitation] [200 Points]](https://play.picoctf.org/practice/challenge/296?category=1&originalEvent=70&page=1) #
 
 ## Description ##
 We have several pages hidden. 
