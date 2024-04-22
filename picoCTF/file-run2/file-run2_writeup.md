@@ -1,4 +1,4 @@
-# file-run2 [Reverse Engineering] [100 Points] #
+# [file-run2 [Reverse Engineering] [100 Points]](https://play.picoctf.org/practice/challenge/267?page=1&search=file) #
 
 ## Description ##
 Another program, but this time, it seems to want some input. 
@@ -9,6 +9,6 @@ Download the program [here](https://artifacts.picoctf.net/c/156/run).
 1. Try running it and add the phrase "Hello!" with a space in front (i.e. "./run Hello!")
 
 ## Solution ##
-[](01.png)
+![](01.png)
 
-[](02.png)
+![](02.png)
