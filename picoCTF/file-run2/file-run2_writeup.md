@@ -9,6 +9,6 @@ Download the program [here](https://artifacts.picoctf.net/c/156/run).
 1. Try running it and add the phrase "Hello!" with a space in front (i.e. "./run Hello!")
 
 ## Solution ##
-[](../01.png)
+[](01.png)
 
-[](../02.png)
+[](02.png)
