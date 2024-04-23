@@ -1,4 +1,4 @@
-# [Ready Gladiator 0 [Reverse Engineering] [100 Points] #
+# [Ready Gladiator 0 [Reverse Engineering] [100 Points]](https://play.picoctf.org/practice/challenge/368?category=3&originalEvent=72&page=1) #
 
 ## Description ##
 Can you make a CoreWars warrior that always loses, no ties?
