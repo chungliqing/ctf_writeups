@@ -8,5 +8,6 @@ Reverse engineer this [binary](https://artifacts.picoctf.net/c/205/unpackme-upx)
 1. What is UPX?
    
 ## Solution ##
+![](images/00.png)
 ![](images/01.png)
 ![](images/02.png)
